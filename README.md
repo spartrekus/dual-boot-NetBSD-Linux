@@ -1,5 +1,5 @@
 # dual-boot-NetBSD-Linux
-Dual Boot: The Unix BSD System, NetBSD, as main OS and Linux for rescue usage
+Dual Boot: The Unix BSD System, NetBSD, as main OS with full Xorg/Desktop and Linux for rescue usage
 
 ## Install Linux with the Debootstrap Method
 
