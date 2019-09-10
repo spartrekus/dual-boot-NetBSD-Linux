@@ -18,8 +18,7 @@ pkg install ... as usual and then
 
 create /grub with its config file as indicated below.
 
-How to install GRUB2 on NetBSD
-This how-to explains the steps needed to install GRUB2 on an existing i386/AMD64 NetBSD-installation. The steps should work on a properly chroot'ed system too. Tested on NetBSD 6.0 AMD64:
+ 
 
 First of all, either download the package, using pkgin install grub2, or build it yourself from package sources (/usr/pkgsrc/sysutils/grub2).
 
@@ -35,3 +34,4 @@ The appropriate grub-install command for this drive would be:
 # grub-install --no-floppy /dev/rwd0d
 Hopefully, it should return : Installation finished. No error reported. If it does so, simply reboot the system and you should be greeted by a nice OS-selector. If not, recheck your device names, if that doesn't fix it, search the web for the error message. Even though there aren't that much resources about GRUB on NetBSD, you'll find a lot of information at GNU/Linux-related sites which apply to this scenario as well.
 
+# Done Reboot and Have Fun Running NetBSD !
