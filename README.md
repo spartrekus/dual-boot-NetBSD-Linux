@@ -12,6 +12,8 @@ The debootstrap for Devuan using deploy-devuan.sh is recommend there.
 ## Install NetBSD on /dev/wd0 
 Installer to install on WD0, edit MBR and install then the main NetBSD system on the space of 500 GB (here in this example). 
 
+here the url for i386 image (daily): https://nycdn.netbsd.org/pub/NetBSD-daily/netbsd-8/latest/images/NetBSD-8.1_STABLE-i386-install.img.gz
+
 ## NetBSD: Edit /etc/rc.conf + run services + wpa config for wifi (if needed)
 
 pkg install ... as usual and then
